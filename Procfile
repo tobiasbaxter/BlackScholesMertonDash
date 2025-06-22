@@ -1,1 +1,1 @@
-web: gunicorn OptionsDash:server
+web: gunicorn BlackScholesMertonDash:server
