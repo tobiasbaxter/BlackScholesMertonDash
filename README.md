@@ -27,7 +27,7 @@ The dashboard guides the user through the process of pricing European options:
 ---
 
 ## How to Use the App
-1.  Navigate to the live app: #placeholder#
+1.  Navigate to the live app: https://blackscholesmertondash.onrender.com
 2.  **Enter a Ticker:** Type the ticker symbol of the desired underlying asset (e.g., AMZN, AAPL, GOOG, MSFT) into the input field and press Enter. The dashboard will display the historical price chart, the most recent price, and the calculated annualized volatility.
 3.  **Specify Option Parameters:**
     * **Strike Price:** Enter your desired strike price for the option.

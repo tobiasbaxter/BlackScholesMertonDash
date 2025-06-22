@@ -207,7 +207,6 @@ def update_dash(input_ticker, strike_price, exp_date, riskfree):
 
     # Volatility
     log_returns = (np.log(prices['Close']).diff()).dropna() # type: ignore
-    print(log_returns)
     volatility = (log_returns.std() * np.sqrt(252)).iloc[0]
     display_vol = f'{format_val(volatility*100)}%'
 
